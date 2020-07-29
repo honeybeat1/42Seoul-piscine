@@ -1,0 +1,1 @@
+cat /etc/passwd | awk 'NR > 10 { print }' | sed 's/:.*$//g' | awk 'NR % 2 == 0 { print }' | rev | sort -r | sed -n "${FT_LINE1}, ${FT_LINE2}p" | sed 's/$/, /g' | tr -d '\n' | sed 's/, $/./' | tr -d '\n'
