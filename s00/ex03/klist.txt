@@ -1,0 +1,6 @@
+Credentials cache: API:A26C214A-AF35-4475-B6C9-B6EED097E7A3
+        Principal: dachung@42SEOUL.KR
+
+  Issued                Expires             Flags    Principal
+Jan 20 13:01:13 2020  Jan 20 23:01:13 2020  FPRIA  krbtgt/42SEOUL.KR@42SEOUL.KR
+Jan 20 13:01:15 2020  Jan 20 23:01:13 2020  FPA    HTTP/student-storage.42seoul.kr@42SEOUL.KR
